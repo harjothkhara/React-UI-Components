@@ -1,6 +1,7 @@
 import React from 'react';
 import './App.css';
 import HeaderContainer from './components/HeaderComponents/HeaderContainer'
+import CardContainer from './components/CardComponents/CardContainer'
 
 const App = () => {
   return (
@@ -20,8 +21,10 @@ const App = () => {
     //   </p>
     // </div>
 
-    <HeaderContainer />
-
+    <React.Fragment>
+      <HeaderContainer />
+      <CardContainer />
+    </React.Fragment>
   )
 };
 
