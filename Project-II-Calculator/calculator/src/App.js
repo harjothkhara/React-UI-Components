@@ -23,11 +23,23 @@ const App = () => {
     // </div>
 
     <div className = "container">
-      <CalculatorDisplay solution = "0" />
+      <CalculatorDisplay solution ="0" displayStyle="display" />
       <ActionButton text = "clear" buttonStyle="action" />
       <NumberButton text ="/" buttonStyle="symbol" />
-    
-    
+      <NumberButton text ="x" buttonStyle="symbol" />
+      <NumberButton text ="-" buttonStyle="symbol" />
+      <NumberButton text ="+" buttonStyle="symbol" />
+      <NumberButton text ="=" buttonStyle="symbol" />
+      <NumberButton text ="9" buttonStyle="number" />
+      <NumberButton text ="8" buttonStyle="number" />
+      <NumberButton text ="7" buttonStyle="number" />
+      <NumberButton text ="6" buttonStyle="number" />
+      <NumberButton text ="5" buttonStyle="number" />
+      <NumberButton text ="4" buttonStyle="number" />
+      <NumberButton text ="3" buttonStyle="number" />
+      <NumberButton text ="2" buttonStyle="number" />
+      <NumberButton text ="1" buttonStyle="number" />
+      <NumberButton text ="0" buttonStyle="number" />
     </div>
   );
 };
