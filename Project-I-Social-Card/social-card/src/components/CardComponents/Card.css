@@ -1,1 +1,22 @@
 /* All styles for your Card Components live here */
+.card-container {
+    border-bottom: 1px solid rgb(207, 207, 207);
+    border-left: 1px solid rgb(207, 207, 207);
+    border-right: 1px solid rgb(207, 207, 207);
+    width: 515px;
+    margin: 2% 0% 0px 11%;
+    /* border-radius: 5px;  */
+    }
+    
+    .card-container img {
+      width: 515px;
+      padding: 0% 0% 2% 0%;
+      border-radius: 11px;
+      border-right: 1px solid lightgrey;
+      border-left: 1px solid lightgrey;
+
+    }
+
+    .card-content {
+        padding: 0% 0% 2% 3%;
+    }

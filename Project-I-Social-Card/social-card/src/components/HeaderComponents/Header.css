@@ -1,1 +1,45 @@
 /* All styles for your header Components live here */
+
+.header-container {
+    display: flex;
+    height: 0% 2%
+  }
+ 
+  img {
+    display:flex;
+    height: 10%;
+    width: 10%;
+    padding-top: 4%;
+  }
+  
+  .header-title {
+    display: flex;
+    justify-content: space-evenly;
+    width: 311px;
+	padding: 5% 0 3% 0;
+  }
+  
+  .header-content {
+    width: 530px;
+    padding-left: 10px;
+  }
+
+  
+  p, h4 {
+    font-size: 1.5rem;
+    line-height: 1.3;
+  }
+  
+  h4 {
+    font-weight: bold;
+  }
+  
+  h5 {
+    color: grey;
+    font-size: 1.3rem;
+  }
+  
+  p {
+    margin-bottom: 7px;
+
+  }
