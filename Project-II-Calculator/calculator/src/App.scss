@@ -65,6 +65,21 @@ body {
   font-family: 'Open-Sans', sans-serif;
 }
 
+button {
+	font-size: 4rem;
+  }
+
 p {
-  font-size: 5rem;
+  font-size: 8rem;
 }
+
+.container {
+	width: 456px;
+	height: 598px;
+	display: flex;
+	flex-wrap: wrap;
+	margin: 20px auto auto auto;
+	border: 2px solid grey;
+	border-left: 1px solid grey;
+	border-right: 1px solid grey;
+  }

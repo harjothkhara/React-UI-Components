@@ -1,0 +1,30 @@
+.number, .symbol {
+    height: 95px;
+    border: 1px solid grey;
+  }
+  
+  .symbol {
+    width: 120px;
+    background-color: darkred;
+    color: white;
+    font-size: 7rem;
+  }
+  
+  .number {
+    width: 110px;
+    background-color: white;
+    font-weight: bold;
+    font-size:4.8rem;
+  }
+  
+  .action {
+    width: 334px;
+    height: 94px;
+    border: 1px solid grey;
+    background-color: white;
+    font-size: 4.8rem;
+  }
+  
+  .wide.number {
+    width: 112px;
+  }
